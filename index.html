@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador</title>
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <img class="logoAlura" src="./imagens/logoalura.png" alt="Logo da Alura">
+        </header>
+        <div id="corpo">
+            <main>
+
+                    <section id="esquerda">
+                        
+                        <textarea class="conteudo_esquerda" cols="41" rows="4" placeholder="Digite aqui o texto que deseja encripitar"></textarea>
+                        
+                        <div class="informacao">
+                            <h6>&#128712;Apenas letras minúsculas e sem acentuação.</h6>
+                        </div>
+
+                        <div class="botoes">
+                            <button class="btn_encriptar" onclick="btnEncriptar()">Criptografar</button>
+                            <button class="btn_desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+                        </div>
+        
+                    </section>
+        
+                    <aside id="direita">
+                        <textarea class="conteudo_direita" cols="27" rows="11" placeholder="Nenhuma mensagem"></textarea>
+                        <button class="btn_copiar" onclick="btnCopiar()" >Copiar</button>
+                    <aside>
+                
+            </main>
+
+            <footer id="rodape">
+                    <p>Aluno do Programa <span>ONE</span> - Oracle Next Education</p>
+                    <p>&copy; 2023 Vagner Rodrigues</p>
+                <ul class="rede-social">
+                    <li>
+                        <a href="https://www.linkedin.com/in/vagnerlrg/" target="_blank">
+                            <img src="./imagens/linkedin_logo.png" alt="Linkedin">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/VagRodr" target="_blank">
+                            <img src="./imagens/Github_logo.png" alt="GitHub">
+                        </a>
+
+                    </li>
+                </ul>
+            </footer>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
